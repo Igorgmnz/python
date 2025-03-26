@@ -16,10 +16,10 @@ print(servidor)
 
 print(primeiro_nome)
 
-mensagem = f"usuario {primeiro_nome} foi cadastrado com sucesso usando o email: {email} "
+mensagem = ('usuario {} foi cadastrado com sucesso usando o email: {}'.format(primeiro_nome, email))
 
 print(mensagem)
 
-mensagem2 = f"enviamos um codigo de confirmacao para o email {arroba_criptografado}***{servidor}"
+mensagem2 = ('enviamos um codigo de confirmacao para o email {}***{}'.format(arroba_criptografado, servidor))
 
 print(mensagem2)
