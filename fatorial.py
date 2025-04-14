@@ -1,10 +1,5 @@
-#tentativa de criar um cálculo fatorial
-n = int(input('digite aqui um número: '))
+num = int(input('digite aqui um número: '))
 m = 1
-numero = n
-for num in range(n):
-    fatorial = n * (n - 1)
-    m = m * n
-    n = n-1
-resultado = m
-print('O resultado de {}! é {}'.format(numero, m))
+for i in range(num, 0, -1):
+    m = m * i
+print(f'O resultado de {num}! é {m}')
