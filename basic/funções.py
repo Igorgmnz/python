@@ -27,25 +27,25 @@ while True:
     operaçao = input("operaçao desejada: ")
     valor2 = int(input("insira outro valor: "))
     if operaçao == "+":
-        resultado = funcao_soma(valor1, valor2)
+        resultado = funcao_soma()
 
     elif operaçao == "-":
-        resultado = funcao_subtraçao(valor1, valor2)
+        resultado = funcao_subtraçao()
 
     elif operaçao == "*":
-        resultado = funcao_multiplicacao(valor1, valor2)
+        resultado = funcao_multiplicacao()
 
     elif operaçao == "/":
-        resultado = funcao_divisao(valor1, valor2)
+        resultado = funcao_divisao()
 
     elif operaçao == "**":
-        resultado = funcao_potencia(valor1, valor2)
+        resultado = funcao_potencia()
 
     elif operaçao == '//':
-        resultado = funcao_divisaoint(valor1, valor2)
+        resultado = funcao_divisaoint()
 
     elif operaçao == '%':
-        resultado = funcao_resto(valor1, valor2)
+        resultado = funcao_resto()
 
     else:
         print("_______________________________")
