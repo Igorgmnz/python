@@ -28,14 +28,15 @@ else:
 
 print(f'sua fórmula: {formula}')
 p = int(input(f'qual dos {n + 1} termos gostaria de saber? '))
+z = p
 p -= 1
 Tp = (math.factorial(n) / (math.factorial(p) * math.factorial(n - p))) * (a**(n - p)) * b**p
 if ifx >= 1:
     if n - p == 0:
-        print(f'O resultado do {p} termo é: {Tp:.0f}')
+        print(f'O resultado do {z} termo é: {Tp:.0f}')
     elif Tp == 1:
-        print(f'O resultado do {p} termo é: x^^{n - p}')
+        print(f'O resultado do {z} termo é: x^^{n - p}')
     else:
-        print(f'O resultado do {p} termo é: {Tp:.0f}x^^{n - p}')
+        print(f'O resultado do {z} termo é: {Tp:.0f}x^^{n - p}')
 else:
-    print(f'O resultado do {p} termo é: {Tp:.0f}')
+    print(f'O resultado do {z} termo é: {Tp:.0f}')
