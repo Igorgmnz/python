@@ -34,7 +34,7 @@ print()
 determinante = (i_ * vetores[2][0]) + (j_ * vetores[2][1]) + (k_ * vetores[2][2])
 print(f'ÁREA:{((i_**2) + (j_**2) + (k_**2))**(1/2)}')
 if determinante != 0:
-    print(f'DETERMINANTE: {determinante}, OS VETORES SÃO DEPENDENTES!')
-else:
     print(f'DETERMINANTE: {determinante}, OS VETORES SÃO INDEPENDENTES!')
+else:
+    print(f'DETERMINANTE: {determinante}, OS VETORES SÃO DEPENDENTES!')
 print('-=' * 30)
